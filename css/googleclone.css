@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_left > a{
+    padding: 15px;
+}
+
+.header_right > a{
+    padding: 15px;
+}
+
+.header_right > span {
+    padding: 15px 22px;
+    background: lightskyblue;
+    border-radius: 5px;
+}
+
+.header_right > span:hover {
+    background: cornflowerblue;
+}
+
+#cloud {
+    font-size:1.2rem;
+    padding: 15px;
+}
+
+#cloud:hover {
+    background-color: cornsilk;
+}
+
+
+.main {
+    height: 80.3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+#img {
+    width: 320px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.searchbox {
+    position: relative;
+    width: 700px;
+    
+    
+}
+
+#search {
+    color: burlywood;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0.9em;
+    left: 1.5em;
+
+}
+
+#mic {
+    color: burlywood;
+    font-size: 1.5rem;
+    top: 1em;
+    right:2em;
+    position: absolute;
+}
+
+.hover {
+    margin-top: 20px;
+}
+
+.main > .searchbox > div > input {
+    margin :20px;
+    border-radius: 30px;
+    width: 650px;
+    height: 2.2rem;
+    border: antiquewhite 1px solid;
+}
+
+.main > .searchbox > div > input:hover {
+    border: darkorange 1px solid ;
+}
+
+
+.main > div > span:nth-child(1) {
+    background-color: antiquewhite;
+    padding: 5px 20px;
+    border-radius : 8px;
+}
+
+.main > div > span:nth-child(2) {
+    background-color: antiquewhite;  
+    padding: 5px 20px;
+    border-radius : 8px;    
+}
+
+.main > div > span:nth-child(1):hover {
+    border:darkorange solid 0.3px;
+}
+
+.main > div > span:nth-child(2):hover {
+    border: darkorange solid 0.3px;
+}
+
+.bottom {
+    padding: 20px 15px;
+    background-color: antiquewhite;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: antiquewhite;
+    border-top: darkorange 1px solid;
+}
+
+.left_menu {}
+
+.left_menu > a {
+    padding: 0 15px;
+}
+
+.right_menu {}
+
+.right_menu > a {
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,196 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_left > a{
+    padding: 15px;
+}
+
+.header_right > a{
+    padding: 15px;
+}
+
+.header_right > #login {
+    padding: 15px 22px;
+    background: antiquewhite;
+    border-radius: 5px;
+}
+
+.header_right > #login:hover {
+    background: burlywood;
+}
+
+#cloud {
+    font-size:1.2rem;
+    padding: 15px;
+}
+
+#cloud:hover {
+    background-color: cornsilk;
+}
+
+
+.main {
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+#img {
+    width: 320px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.searchbox {
+    position: relative;
+    width: 700px;
+    border: 1px solid black;
+    height: 36px;
+    border-radius: 25px;
+    border: antiquewhite 1px solid;
+    
+}
+
+#search {
+    color: burlywood;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0em;
+    left: 0.7em;
+
+}
+
+#mic {
+    color: burlywood;
+    font-size: 1.5rem;
+    top:0.1em;
+    right:0.6em;
+    position: absolute;
+}
+
+.main_bot {
+    margin-top: 30px;
+}
+
+.main_bot > span:nth-child(1) {
+    margin: 0 5px;
+
+}
+.main_bot > span:nth-child(2) {
+    margin: 0 5px;
+
+}
+
+.main > .searchbox > div > input {
+    /* margin :20px;     */
+    position: relative;
+    bottom: 1px;
+    left: 50px;
+    width: 600px;
+    height: 2.2rem;
+    border: none;
+    background: transparent;
+}
+
+.main > .searchbox > div > input:hover {
+    border: darkorange 1px solid ;
+}
+
+
+.main > div > span:nth-child(1) {
+    background-color: antiquewhite;
+    padding: 5px 20px;
+    border-radius : 8px;
+}
+
+.main > div > span:nth-child(2) {
+    background-color: antiquewhite;  
+    padding: 5px 20px;
+    border-radius : 8px;    
+}
+
+.main > div > span:nth-child(1):hover {
+    border:darkorange solid 0.3px;
+}
+
+.main > div > span:nth-child(2):hover {
+    border: darkorange solid 0.3px;
+}
+
+.bottom {
+    padding: 20px 15px;
+    background-color: antiquewhite;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: antiquewhite;
+    border-top: lightsalmon 1px solid;
+}
+
+.left_menu {}
+
+.left_menu > a {
+    padding: 0 15px;
+}
+
+.right_menu {}
+
+.right_menu > a {
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: inherit;
+}
+
+ 
+
+/* @media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header_left > a:nth-child(1) {
+        background: khaki;
+        padding: 5em;
+    }
+
+    .header_left > a:nth-child(2) {
+        background: khaki;
+        padding: 5em;
+    }
+
+    
+    
+} */
