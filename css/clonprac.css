@@ -39,7 +39,7 @@
 
 
 .main {
-    height: 82vh;
+    height: 73vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,6 +62,10 @@
     border-radius: 25px;
     border: antiquewhite 1px solid;
     
+}
+
+.searchbox:hover {
+    border: 1px solid burlywood;
 }
 
 #search {
