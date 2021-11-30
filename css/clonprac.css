@@ -39,7 +39,7 @@
 
 
 .main {
-    height: 73vh;
+    height: 82vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,27 +174,24 @@ a:visited {
 
  
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     body {
         margin: 0;
         padding: 0;
     }
 
     .header {
-        display: flex;
-        flex-direction: column;
+        display: none;
     }
 
-    .header_left > a:nth-child(1) {
-        background: khaki;
-        padding: 5em;
+    .bottom {
+        display: none;
     }
 
-    .header_left > a:nth-child(2) {
-        background: khaki;
-        padding: 5em;
+    .footer {
+        display: none;
     }
 
     
     
-} */
+}
